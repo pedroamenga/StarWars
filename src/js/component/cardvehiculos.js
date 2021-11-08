@@ -11,7 +11,7 @@ export const CardVehiculos = props => {
 			<div className="card" style={{ width: "18rem" }}>
 				<img src="" className="card-img-top" alt="..." />
 				<div className="card-body">
-					<h5 className="card-title" />
+					<h5 className="card-title">{props.obj.name}</h5>
 					<div className="card-buttons">
 						<a href="#" className="btn btn-primary">
 							Más Información
